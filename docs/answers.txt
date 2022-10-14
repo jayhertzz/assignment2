@@ -1,0 +1,58 @@
+Date went through git lab tutorials: Oct. 12, 2022
+Date I setup my GitHub account: Dec. 3, 2020
+1. Paste the console output:  
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/
+2. command used: git rev-list --all --count
+number of commits from all branches: 8
+
+3. command used: git log -1 --format="%ad" -- README.md
+date last motified: Fri Oct 14 10:48:15 2022 -0400
+
+4. Branches are used in a Git Repository to separate out work done by different people or by 
+different projects. Things need to be organized to make sure the code is understandable and 
+not confusing. Branches are also used to stop people pushing bad code to main. Having branches
+is like a stop sign, making sure someone looks to make sure all the code in one branch is 
+working well before it is pushed to main and can possibly prevent a problem in the future with
+other team members' code. 
+
+5. git log vs. git status
+git log: shows the commit logs, shows all of the commits that have been done
+git status: shows the state of the working directory and the staging area. Shows which changes have or haven't
+been staged, and which files are being tracked by Git. 
+
+6. git log --all Vehicle.h
+
+7. git log --all --grep="file"
+
+8. I) Inheritance: When there are multiple classes with similiarites you want to 
+be able to share them. There is a parent-child relationship where the parent 
+shares the common features and all of the children share all of the data and 
+functionality found in the parent class. The children classes will inherit all 
+of the parent class features. This is known as an "is a" relationship. For 
+example. The parent class could be a Shape class and the children would be 
+classes like Circle, Square, and Rectangle. A circle is a shape, same with the 
+square and rectangle. 
+
+II) Polymorphism: This is the idea that you can access objects of different 
+classes/types through the same interface, and each object can provide its own 
+independent implementation of this interface. There are different things that 
+are performed due to the object's class. Every object responds differently based 
+on the properties of its own class. 
+
+III) Encapsulation: The grouping of data and the methods/functions that operate 
+on that data into a single unit, like a class. 
+
+9. The main difference between these two workflows is that in the Integration 
+manager workflow, there are two repositories per developer, a public and 
+private. This is not the case for the Dictator and Lieutenants workflow. 
+
+10. In the Dictator and Lieutenants workflow there is a ranking system that 
+forces the developers to be in line and have checkpoints before bad code is 
+pushed to the leading repository. This is a good thing because with 100 
+developers you want to make sure the blessed repository remains workable and as 
+perfect as can be. 
